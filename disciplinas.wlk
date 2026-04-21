@@ -19,7 +19,7 @@ object judo {
 }
 
 object comiteOlimpico {
-    var costoPorEntrenador = 10
+    var property costoPorEntrenador = 10
     method costoPorEntrenador() {
       return costoPorEntrenador
     }
