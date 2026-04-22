@@ -1,9 +1,0 @@
-import atletas.*
-import disciplinas.*
-
-
-describe "group of tests for pepita" {
-
-  
-
-}

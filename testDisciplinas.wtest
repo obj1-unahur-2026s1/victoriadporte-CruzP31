@@ -1,0 +1,15 @@
+import disciplinas.*
+
+
+describe "Lo tenemos que pedir" {
+    test "tenis al inicio vale 215" {
+      assert.equals(215,tenis.presupuestoBase())
+    }
+    test "2" {
+        tenis.cantidadDeHinchas(10)
+        assert.equals(230, tenis.presupuestoBase()) 
+    }
+    test "judo al inicio tiene un presupuesto de 480" {
+      assert.equals(3*160, judo.presupuestoBase())
+    }
+}
