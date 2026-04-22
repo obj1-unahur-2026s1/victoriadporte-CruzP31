@@ -18,6 +18,8 @@ describe "Test de escenarios propuestos en el dominio para " {
     victoria.cambiarDisciplina(tenis)
     victoria.cambiarElemento(raqueta)
     victoria.cambiarCantidadEntrenadores(2)
+    victoria.cumplirAños()
+    victoria.cumplirAños()
     assert.equals(20+215+2200, victoria.presupuesto())
   }
 }
